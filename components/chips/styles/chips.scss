@@ -1,0 +1,43 @@
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+
+  margin: 0 0 15px 0;
+}
+
+.chip {
+  padding: 4px 24px;
+
+  background-color: #fff;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #434343;
+
+  border-radius: 18px;
+  transition: all 0.2s ease;
+
+  border: none;
+  outline: none;
+
+  &:hover {
+    background-color: #eb6012;
+    color: #F5F5F5;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: #cb540f;
+    color: #F5F5F5;
+  }
+
+  &__active {
+    background-color: #fb9155;
+    color: #F5F5F5;
+  }
+}

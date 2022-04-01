@@ -1,0 +1,29 @@
+.search-input {
+  width: 100%;
+  height: 48px;
+  padding: 5px 15px;
+
+  font-size: 14px;
+
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+
+  outline: none;
+
+  &::placeholder {
+    color: #8c8c8c;
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+
+    cursor: pointer;
+  }
+}

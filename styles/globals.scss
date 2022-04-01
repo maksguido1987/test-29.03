@@ -1,0 +1,27 @@
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap');
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import '/components/page-wrapper/styles/page-wrapper.scss';
+@import '/components/main/styles/main.scss';
+@import '/components/slider/styles/slider.scss';
+@import '/components/chips/styles/chips.scss';
+@import '/components/search-input/styles/search-input.scss';
+@import '/components/button/styles/button.scss';
